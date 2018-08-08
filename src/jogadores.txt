@@ -1,0 +1,23 @@
+Hernane,Atacante,29,São Paulo,7
+Paulo,Atacante,25,São Paulo,10
+Jose,Atacante,29,Santos,6
+Marcelo,Atacante,29,São Paulo,3
+Tiago,Zagueiro,30,Santos,3
+Rogerio,Zagueiro,31,São Paulo,1
+Mateus,Zagueiro,19,Santos,2
+Mano,Zagueiro,19,São Paulo,0
+Lucas,Zagueiro,22,São Paulo,0
+Kaka,Zagueiro,23,Palmeiras,3
+Elias,Atacante,25,Palmeiras,3
+Lugano,Atacante,31,Palmeiras,3
+Tite,Goleiro,30,Santos,0
+Dede,Goleiro,33,Fluminense,0
+Marcos,Meio-Campo,34,Corinthians,3
+Victor,Meio-Campo,35,Corinthians,3
+Edu,Lateral-Direito,30,Santos,1
+Willian,Lateral-Direito,31,Flamengo,0
+Pedro,Lateral-Esquerdo,29,Corinthians,3
+Neto,Lateral-Esquerdo,29,Flamengo,2
+Renan,Volante,29,Corinthians,1
+Renato,Volante,30,Flamengo,1
+Mario,Volante,29,Corinthians,0
