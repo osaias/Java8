@@ -1,4 +1,4 @@
-package DataHora;
+package dataHora;
 import java.util.Scanner;
 
 public class TesteDataHandlerJava7 {
