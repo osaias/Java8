@@ -1,4 +1,4 @@
-package teste;
+package br.com.alura.java8;
 
 public class Impressor implements Printable{
 
