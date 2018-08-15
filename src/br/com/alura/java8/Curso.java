@@ -43,5 +43,10 @@ public class Curso {
 		return true;
 	}
     
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return this.getNome();
+	}
     
 }

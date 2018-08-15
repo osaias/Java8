@@ -16,6 +16,7 @@ import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 import java.time.format.FormatStyle;
 import java.time.temporal.ChronoUnit;
+import java.time.temporal.Temporal;
 import java.time.temporal.TemporalAdjuster;
 import java.time.temporal.TemporalAdjusters;
 import java.util.Locale;
@@ -91,14 +92,14 @@ public class DataHandlerJava8{
 		//==========================================================================================//
 		
 		//Calculando datas
-		MonthDay natal1 = MonthDay.of(Month.JULY, 25);
-		LocalDate natalDesseAno = natal1.atYear(Year.now().getValue());
+		MonthDay diaMesNatal = MonthDay.of(Month.DECEMBER, 25);
+		LocalDate natalDesseAno = diaMesNatal.atYear(Year.now().getValue());
 		long diasAteONatal = LocalDate.now().until(natalDesseAno, ChronoUnit.DAYS);
 		System.out.println("\nFalta " + diasAteONatal + " para o natal.");
 		
 		TemporalAdjuster ajustadorParaProximaSexta = TemporalAdjusters.next(DayOfWeek.FRIDAY);
 		LocalDate proximaSexta = LocalDate.now().with(ajustadorParaProximaSexta);
-		System.out.println("\nPróxima sexta-feira: " + proximaSexta);
+		System.out.println("\nPróxima sexta-feira: " + proximaSexta.format(DateTimeFormatter.ofPattern("dd/MM/yyyy")));
 	}
 
 	private static void rodaAlgoritmo() {
